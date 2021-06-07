@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mi Carreta</title>
+  <!-- Metadata-->
+  <meta name="author" content="Dany Corrales G&oacute;mez, Ra&uacute;l C&aacute;rdenas Muñoz, Anderson Felipe Rivera Mora">
+  <meta name="Dc.title" content="Mi Carreta">
+  <meta name="Description" content="El caf&eacute; de Costa Rica es representante de una tradici&oacute;n que Mi Carreta que desea compartir con todo el mundo con sus diferentes productos...">
+  <meta name="copyright" content="Mi Carreta">
+  <meta name="robots" content="index, follow">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!--Theme Color-->
+  <meta name="theme-color" content="crimson">
+  <meta name="apple-mobile-web-status-bar-style" content="crimson">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <main>
+    <button id="btnTop" class="goToTop" onclick="scrollToTop();return false" type="button" name="button"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+    <!-- header -->
+    <header>
+      <!-- menu para movil -->
+      <section class="nav-box-mobile">
+        <img id="logo" onclick="logoClick();" src="img/carreta.svg" alt="Logo">
+        <div id="hamb-nav" class="hamb-con">
+        <i id="hamb-menu" class="fa fa-bars hamb" aria-hidden="true"></i>
+        </div>
+        <div id="hide" class="oculto">
+          <nav>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="eventos.html">Eventos</a></li>
+              <li><a href="vive.html">Vive el caf&eacute;</a></li>
+              <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+          </nav>
+          <img src="img/carreta.svg" alt="Logo">
+          <p>8888-8888 | info@micarreta.com</p>
+        </div>
+      </section>
+      <!-- menu para tablet y pc -->
+      <nav class="nav-pc">
+        <img id="logoPc" onclick="logoClick();" src="img/logo.svg" alt="Logo">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="vive.html">Vive el caf&eacute;</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero">
+        <div class="logo">
+          <img src="img/logo.svg" alt="Mi Carreta">
+        </div>
+        <div class="bienvenida">
+          <div class="bienvenida-texto">
+            <h1>Caf&eacute; con el orgullo y sabor de Costa Rica</h1>
+            <p>el fruto del trabajo que se disfruta en nuestros productos</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <p class="texto-info">8876-8461 | info@micarreta.com</p>
+
+    <!-- Productos -->
+    <section class="productos">
+      <div class="titulo">
+        <h2>Nuestros productos</h2>
+        <img src="img/bolsa.svg" alt="Icono Bolsa">
+      </div>
+      <div class="itemsProducto">
+        <div class="producto-img">
+          <img src="img\Bolsas-de-cafe-1.png" alt="Caf&eacute; en Grano">
+        </div>
+        <h3>Caf&eacute; en grano</h3>
+        <p>250g | 500g</p>
+      </div>
+      <div class="itemsProducto">
+        <div class="producto-img">
+          <img src="img\Bolsas-de-cafe-2.png" alt="Caf&eacute; Molido Fino">
+        </div>
+        <h3>Caf&eacute; Molido Fino</h3>
+        <p>250g | 500g</p>
+      </div>
+      <div class="itemsProducto">
+        <div class="producto-img">
+          <img src="img\Bolsas-de-cafe-3.png" alt="Caf&eacute; Especial">
+        </div>
+        <h3>Caf&eacute; Especial</h3>
+        <p>250g | 500g</p>
+      </div>
+      <div class="botonVerMas">
+        <a href="productos.html"><button>M&aacute;s productos</button></a>
+      </div>
+    </section>
+
+    <!-- Grid 1-->
+    <section class="grid1">
+      <div class="flex-sec-1">
+        <div class="fotoPrimera-grid-1"></div>
+        <div class="descripcion">
+          <div class="des-img">
+            <img src="img/pichel.svg" alt="Icono caf&eacute;">
+          </div>
+          <div class="des-texto">
+            <h2>Invitados especiales</h2>
+            <p><span>Mi carreta</span> ha participado como invitado a m&uacute;ltiples eventos, en los que se ha reconocido nuestra calidad</p>
+            <a href="eventos.html">Ver m&aacute;s</a>
+          </div>
+        </div>
+      </div>
+      <div class="fotoSegunda-grid-1 flex-sec-2"></div>
+    </section>
+
+    <!-- Presentacion -->
+    <section class="presentacionCafe">
+      <div class="tazas"></div>
+      <div class="descPresentacion">
+        <p>El caf&eacute; m&aacute;s que una bebida, una forma de vivir...</p>
+        <a href="vive.html"><button>Conoce m&aacute;s</button></a>
+        <img src="img/rama.svg" alt="Icono bandola">
+      </div>
+    </section>
+
+    <!-- Grid 2-->
+    <section class="grid2">
+      <div class="fotoSegunda-grid-2 flex-sec-3"></div>
+      <div class="flex-sec-4">
+        <div class="descripcion-grid-2">
+          <div class="descripcion-texto-grid-2">
+            <h2>Acerca de nosotros</h2>
+            <p>Toda una forma de vida, en <span>Mi Carreta</span> conocemos y cuidamos del caf&eacute; desde el cultivo del grano</p>
+            <a href="nosotros.html">Ver m&aacute;s</a>
+          </div>
+          <div class="descripcion-img-grid2">
+            <img src="img/chorreador.svg" alt="Icono caf&eacute;">
+          </div>
+        </div>
+        <div class="fotoPrimera-grid-2"></div>
+      </div>
+    </section>
+
+
+    <section class='carousel-container'>
+      <div class='sec-left'>
+        <h5>Agradecemos y compartimos aqu&iacute; sus valiosas opiniones.</5h>
+<!--        <h5>Nos interesa su opini&oacute;n, por favor compartala aqu&iacute;</5h>
+          <div class='form-coment'>
+            <form action="" method="post">
+              <input type='text' name='coment-name' value='' placeholder='Nombre'>
+              <input type='text' name='coment-desc' value='' placeholder='Comentario'>
+            <div class='coment-send'>
+              <input type='submit' name='publicar-coment' value='Enviar'>
+            </div>
+          </form>
+        </div> -->
+      </div>
+      <div class='sec-right'>
+    <!-- Carousel de Comentarios -->
+    <div class="carousel" id="comments" data-interval="4000">
+          <div class='carousel-coments'>
+            <p><q>Mi Carreta es una PYME genial</q></p>
+            <p>Anderson R.</p>
+          </div>
+          <div class='carousel-coments'>
+            <p><q>El café de Mi Carreta me gusta mucho</q></p>
+            <p>Dany C.</p>
+          </div>
+          <div class='carousel-coments'>
+            <p><q>Este café me despierta en las mañanas</q></p>
+            <p>"Ra&uacute;l C."</p>
+          </div>
+    </div>
+    <div class='arrows'>
+      <i class='fa fa-chevron-left' onclick="prev()" aria-hidden='true'></i>
+      <i class='fa fa-chevron-right' onclick="next()" aria-hidden='true'></i>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="gradient"></div>
+      <div class="footer-info">
+        <div class="suscribete">
+          <p>Nuestra Ubicaci&oacute;n</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.0550975242913!2d-83.91948408519568!3d9.845739778372689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa121bbb6f4f135%3A0x921fe6006c34165c!2sMi+Carreta!5e0!3m2!1sen!2scr!4v1555109265027!5m2!1sen!2scr" width="90%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="social">
+          <h4>Redes sociales</h4>
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i> YouTube</a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          </ul>
+        </div>
+        <div class="copy">
+          <p>Copyright &copy; 2019</p>
+          <img src="img/logo.svg" alt="Logo">
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+
+  <!-- Script -->
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/top.js"></script>
+  <script type="text/javascript" src="js/slider.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/d32df99f9d.js"></script>
+</body>
+</html>

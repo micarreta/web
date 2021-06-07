@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mi Carreta</title>
+  <!-- Metadata-->
+  <meta name="author" content="Dany Corrales G&oacute;mez, Ra&uacute;l C&aacute;rdenas Muñoz, Anderson Felipe Rivera Mora">
+  <meta name="Dc.title" content="Mi Carreta">
+  <meta name="Description" content="El caf&eacute; de Costa Rica es representante de una tradici&oacute;n que Mi Carreta que desea compartir con todo el mundo con sus diferentes productos...">
+  <meta name="copyright" content="Mi Carreta">
+  <meta name="robots" content="index, follow">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!--Theme Color-->
+  <meta name="theme-color" content="crimson">
+  <meta name="apple-mobile-web-status-bar-style" content="crimson">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="css/style2.css">
+</head>
+<body>
+  <main>
+    <!-- header -->
+    <header>
+      <!-- menu para movil -->
+      <section class="nav-box-mobile">
+        <img onclick="logoClick();" src="img/carreta.svg" alt="Logo">
+        <div id="hamb-nav" class="hamb-con">
+        <i id="hamb-menu" class="fa fa-bars hamb" aria-hidden="true"></i>
+        </div>
+        <div id="hide" class="oculto">
+          <nav>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="eventos.html">Eventos</a></li>
+              <li><a href="vive.html">Vive el caf&eacute;</a></li>
+              <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+          </nav>
+          <img src="img/carreta.svg" alt="Logo">
+          <p>8876-8461 | info@micarreta.com</p>
+        </div>
+      </section>
+      <!-- menu para tablet y pc -->
+      <nav class="nav-pc">
+        <img onclick="logoClick();" id="carretaNavPc" src="img/logo.svg" alt="Logo">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="vive.html">Vive el caf&eacute;</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-con">
+        <div class="hero-short hero-vive"></div>
+        <div class="video-con">
+          <video id="videoHero" autoplay loop width="1280" height="350">
+            <source src="video/video-hero.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </header>
+
+    <h1>Disfruta el <span>caf&eacute;</span> en todos sus usos</h1>
+
+    <!-- Vive el café -->
+    <section class="vive-container">
+      <div class="receta-contenedor">
+      <div class="media-vive">
+        <img src="img/galletas-cafe.jpg" alt="">
+      </div>
+      <div class="receta-vive">
+        <h2>Galletas de caf&eacute;</h2>
+          <h3>Ingredientes</h3>
+            <p>150 g de mantequilla a temperatura ambiente</p>
+            <p>150 g de azucar morena</p>
+            <p>350 g de harina</p>
+            <p>3 cucharadas de cafe molido fino</p>
+            <p>2 huevos</p>
+            <p>1/2 taza de nueces picadas</p>
+          <h3>Instrucciones de la Receta</h3>
+            <p>1. Precalienta el horno a 190oC.</p>
+            <p>2. Bate la mantequilla con el azúcar hasta que levante ligeramente. Agrega los huevos uno por uno y finalmente añade la harina y el café.</p>
+            <p>3. Forma las galletas con una cuchara y coloca un poco de nueces sobre cada una. Hornea de 8 a 10 minutos o hasta que doren un poco.</p>
+        </div>
+      </div>
+      <div class="receta-contenedor">
+      <div class="media-vive">
+        <img src="img/helado-cafe.jpg" alt="">
+      </div>
+      <div class="receta-vive">
+        <h2>Helado de caf&eacute;</h2>
+          <h3>Ingredientes</h3>
+            <p>185 gr Azúcar</p>
+            <p>5 Yemas de Huevo</p>
+            <p>700 ml. Nata para Montar 35%</p>
+            <p>15 gr Café soluble</p>
+            <p>1 cda Vainilla líquida</p>
+          <h3>Instrucciones de la Receta</h3>
+            <p>1. Ponemos la nata en un cazo y le añadimos la vainilla líquida y el café y mezclamos todo.</p>
+            <p>2. Calentamos la nata sin llegar a hervir y reservamos</p>
+            <p>3. Batimos las yemas de huevo con el azúcar invertido hasta que blanqueen las yemas.</p>
+            <p>4. Incorporamos las yemas batidas a la nata y lo mezclaremos.</p>
+            <p>5. Cuando la nata esté tibia, calentaremos toda la mezcla con el fuego muy bajo sin que llegue a hervir.</p>
+            <p>6. Pondremos la base del helado en un recipiente que pueda ir al congelador y cuando esté fría la mezcla.</p>
+            <p>7. A continuación lo pondremos en el congelador y al cabo de 1 hora, lo sacaremos y lo removeremos todo, sobre todo en las paredes y la parte de abajo del recipiente par que no se acabe de congelar, procurando que se despegue de las paredes.</p>
+            <p>8. Esta operación la haremos 3 veces, con intervalos de una hora, siempre removiendo desde la parte de abajo y las paredes, para que tengamos un helado bien cremoso.</p>
+            <p>9. Finalmente lo dejaremos en el congelador durante 12 horas.</p>
+            <p>10. FAl servirlo es conveniente sacarlo del congelador y guardarlo en el frigorífico un ratito antes de consumirlo para que esté en su punto.</p>
+     </div>
+     </div>
+     <div class="receta-contenedor">
+     <div class="media-vive">
+       <img src="img/smoothe-cafe.jpg" alt="">
+     </div>
+     <div class="receta-vive">
+       <h2 class="sm-title">smoothie de caf&eacute;</h2>
+         <h3>Ingredientes</h3>
+           <p>1 taza de café cargado a temperatura ambiente</p>
+           <p>1 taza de leche, fría</p>
+           <p>1 a 3 cucharadas de azúcar, dependiendo que tan dulce lo desees</p>
+           <p>tazas de cubos de hielo (puedes agregar más para espesar el batido)</p>
+         <h3>Instrucciones de la Receta</h3>
+           <p>1. Agrega todos los ingredientes a tu licuadora y mezcla hasta que no tenga grumos.</p>
+       </div>
+     </div>
+     <div class="receta-contenedor">
+     <div class="media-vive">
+       <img src="img/licor-cafe.jpg" alt="">
+     </div>
+     <div class="receta-vive">
+       <h2>Licor de caf&eacute;</h2>
+         <h3>Ingredientes</h3>
+           <p>En una cazuela preparamos un almíbar con agua (100 ml) y el azúcar.</p>
+           <p>Se deja enfriar y lo añadimos al aguardiente</p>
+           <p>Molemos el café o si no tenéis molinillo compráis el café que más os guste ya molidoLicor café sin filtrar</p>
+           <p>Pelamos un limón y una naranja. Importante que no vaya con la parte blanca pues amarga, lo mejor es que los pelemos lo más fino posible. Los añadimos con el café al aguardiente.</p>
+           <p>Tapamos y dejamos así durante unos 10 días aproximadamente. Removiéndolo a diario para que se mezcle bien.</p>
+           <p>Pasado este tiempo lo colamos poniendo un paño fino en el colador o compráis un colador de tela</p>
+           <p>Embotellamos y dejamos reposar en lugar donde no haga mucho calor.</p>
+           <p>Embotellamos y dejamos reposar en lugar donde no haga mucho calor.</p>
+         <h3>Instrucciones de la Receta</h3>
+           <p>1. Introducimos el aguardiente en un tarro.</p>
+       </div>
+     </div>
+     <div class="receta-contenedor">
+     <div class="media-vive">
+       <img src="img/triple-cafe.jpg" alt="">
+     </div>
+     <div class="receta-vive">
+       <h2>triple caf&eacute;</h2>
+         <h3>Ingredientes</h3>
+           <p>Cuñas de azúcar y limón, para el borde del vidrio.</p>
+           <p>Ron de alta prueba de 1 oz, como Bacardi 151</p>
+           <p>Licor de café de 2 onzas, como Kahlua o Tia Maria</p>
+           <p>1/2 taza de café recién hecho</p>
+           <p>Rim un vaso con azucar</p>
+         <h3>Instrucciones de la Receta</h3>
+           <p>1. Bordea tu vaso con azúcar.</p>
+           <p>2. Vierta el ron en el vaso, inclínelo y use un fósforo de tallo largo o un encendedor de barbacoa para prender fuego al licor</p>
+           <p>3. Colóquelo en posición vertical sobre una superficie plana y agarre suavemente el tallo, haciendo girar el ron flameado hasta que el azúcar alrededor del borde se caramelice.</p>
+           <p>4. Tan pronto como el azúcar esté caramelizado, vierta el licor de café, luego cubra con café caliente y sirva inmediatamente.</p>
+       </div>
+    </section>
+
+
+    <section class="yt-video">
+      <span class="titulo-prod"><h2 class="iframes-title">M&aacute;s que caf&eacute;</h2></span>
+      <div class="iframe-con">
+        <figure>
+          <iframe src="https://www.youtube.com/embed/-zU_RLKNvK8" frameborder="0"></iframe>
+        </figure>
+        <figure>
+          <iframe src="https://www.youtube.com/embed/FY9oA5eLkYQ" frameborder="0"></iframe>
+        </figure>
+      </div>
+      <div class="iframe-con">
+        <figure>
+          <iframe src="https://www.youtube.com/embed/CCaG_2faSZ0" frameborder="0"></iframe>
+        </figure>
+        <figure>
+          <iframe src="https://www.youtube.com/embed/9UjNDaw636Y" frameborder="0"></iframe>
+        </figure>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="gradient"></div>
+
+      <div class="footer-info">
+        <div class="suscribete">
+          <p>Nuestra Ubicaci&oacute;n</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.0550975242913!2d-83.91948408519568!3d9.845739778372689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa121bbb6f4f135%3A0x921fe6006c34165c!2sMi+Carreta!5e0!3m2!1sen!2scr!4v1555109265027!5m2!1sen!2scr" width="90%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="social">
+          <h4>Redes sociales</h4>
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i> YouTube</a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          </ul>
+        </div>
+        <div class="copy">
+          <p>Copyright &copy; 2019</p>
+          <img src="img/logo.svg" alt="Logo">
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+  <!-- Script -->
+  <script type="text/javascript" src="js/script.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/d32df99f9d.js"></script>
+</body>
+</html>
